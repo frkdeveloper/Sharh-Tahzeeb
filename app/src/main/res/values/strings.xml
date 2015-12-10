@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="app_name">Sharh Tahzeeb</string>
+    <string name="package_name">naveed.com.sharhtahzeeb</string>
+    <string name="account_name">appsdeveloper9</string>
+    <string name="account_link">market://search?q=appsdeveloper9</string>
+    <string name="pdf_dwonload_link">market://search?q=com.adobe.reader</string>
+    <string name="app_link">market://search?q=</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="share_dialog_text">If you find this app useful, would you mind taking a moment to rate it? It wouldn\'t take more than a minute. Thanks for your support.</string>
+
+
+</resources>

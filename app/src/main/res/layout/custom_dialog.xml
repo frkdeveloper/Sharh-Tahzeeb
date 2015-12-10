@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/color_card_bg"
+    android:paddingBottom="5dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeHeader"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:text="Share"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_below="@+id/relativeHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_dialog_text"
+        android:id="@+id/textView"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_below="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_selector"
+        android:layout_height="wrap_content"
+        android:text="Rate the App"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_below="@+id/btnRate"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_selector"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:text="Share the App"/>
+
+    <Button
+        android:id="@+id/btnMoreApps"
+        android:layout_below="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_selector"
+        android:layout_height="wrap_content"
+        android:text="More Apps"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_below="@+id/btnMoreApps"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_selector"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+
+</RelativeLayout>
